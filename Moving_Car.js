@@ -15,7 +15,14 @@ function draw() {
   background(135, 206, 235);
 
   // ===== BEGIN BILLBOARD HERE =====
-  
+  fill(color(255,255,255))
+  rect(390, 175, 20, 60)
+  fill(color(250, 208, 8))
+  rect(300, 80, 200, 100, 20, 20, 20, 20)
+  fill(color(0,0,0))
+  textSize(24);
+  textAlign(CENTER);
+  text('KEEP MOVING', 400, 140)
   // ===== END BILLBOARD HERE =====
 
   // ===== DRAW GRASS =====
